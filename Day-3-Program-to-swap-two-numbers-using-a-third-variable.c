@@ -4,7 +4,7 @@
 int main() {
     int a, b, temp;
     printf("Enter two integers (a and b): ");
-    scanf_s("%d %d", &a, &b);
+    scanf("%d %d", &a, &b);
 
     temp = a;
     a = b;
